@@ -207,11 +207,11 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #483e57;
+    background-color: #14C3A2;
 }
 
 hr.star-light-inverse, hr.star-light-inverse-v2 {
-    border-color: #483e57;
+    border-color: #14C3A2;
 }
 
 hr.star-light-inverse:after {
@@ -338,8 +338,8 @@ hr.star-light-inverse-v2:after {
 header {
     text-align: center;
     color: #fff;
-    // background: #14C3A2;
-    background-image: url(../img/header-purple.jpg);
+    background: #14C3A2;
+    // background-image: url(../img/header-purple.jpg);
     background-repeat: none;
     background-position: center center;
     background-attachment: scroll;
@@ -743,8 +743,8 @@ aside.verse p {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/header-purple.jpg);
+    background-color: #14C3A2;
+    // background-image: url(../img/header-purple.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
