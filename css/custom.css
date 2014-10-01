@@ -1,13 +1,13 @@
 /*VARIABLES*/
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif; }
+  font-family: "Lato", Helvetica, Arial, sans-serif; }
 
 .text-muted {
   color: #777; }
 
 .text-primary {
-  color: #FED136; }
+  color: #14C3A2; }
 
 .smaller {
   font-size: 0.9em; }
@@ -27,7 +27,7 @@ a.active {
   outline: 0; }
 
 a {
-  color: #FED136; }
+  color: #ed3f65; }
 
 a:hover,
 a:focus,
@@ -42,7 +42,7 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 .img-centered {
@@ -55,12 +55,12 @@ h6 {
   background-color: #222; }
 
 .btn-primary {
-  border-color: #FED136;
+  border-color: #ffe72c;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #fff;
-  background-color: #FED136; }
+  background-color: #ffe72c; }
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -91,26 +91,26 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  border-color: #FED136;
-  background-color: #FED136; }
+  border-color: #ffe72c;
+  background-color: #ffe72c; }
 
 .btn-primary .badge {
-  color: #FED136;
+  color: #ffe72c;
   background-color: #fff; }
 
 .btn-xl {
   padding: 20px 40px;
-  border-color: #FED136;
+  border-color: #ffe72c;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   border-radius: 3px;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  background-color: #FED136; }
+  background-color: #ffe72c; }
 
 .btn-xl:hover,
 .btn-xl:focus,
@@ -141,11 +141,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  border-color: #FED136;
-  background-color: #FED136; }
+  border-color: #ffe72c;
+  background-color: #ffe72c; }
 
 .btn-xl .badge {
-  color: #FED136;
+  color: #ffe72c;
   background-color: #fff; }
 
 hr.star-light,
@@ -174,17 +174,17 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #14C3A2; }
+  background-color: #ed3f65; }
 
 hr.star-light-inverse, hr.star-light-inverse-v2 {
-  border-color: #14C3A2; }
+  border-color: #FF0066; }
 
 hr.star-light-inverse:after {
-  color: #FED136;
+  color: #ffe72c;
   background-color: #fff; }
 
 hr.star-light-inverse-v2:after {
-  color: #FED136;
+  color: #ffe72c;
   background-color: #F7F7F7; }
 
 .social_icons i {
@@ -192,7 +192,7 @@ hr.star-light-inverse-v2:after {
   padding: 25px 10px; }
 
 .social_icons i:hover {
-  color: #FED136;
+  color: #ffe72c;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s; }
@@ -202,9 +202,9 @@ hr.star-light-inverse-v2:after {
   background-color: #222; }
 
 .navbar-default .navbar-brand {
-  font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,cursive;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  color: #FED136; }
+  color: #ffe72c; }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -216,19 +216,19 @@ hr.star-light-inverse-v2:after {
   border-color: rgba(255, 255, 255, 0.02); }
 
 .navbar-default .navbar-toggle {
-  border-color: #FED136;
-  background-color: #FED136; }
+  border-color: #ffe72c;
+  background-color: #ffe72c; }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff; }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #FED136; }
+  background-color: #ffe72c; }
 
 .navbar-default .nav li a {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
   color: #fff; }
@@ -236,12 +236,12 @@ hr.star-light-inverse-v2:after {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   outline: 0;
-  color: #FED136; }
+  color: #ffe72c; }
 
 .navbar-default .navbar-nav > .active > a {
   /*@include border-radius(0px);*/
   color: #fff;
-  background-color: #FED136; }
+  background-color: #ffe72c; }
 
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -281,12 +281,13 @@ hr.star-light-inverse-v2:after {
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
   border-radius: 100%;
-  background-color: #fff; }
+  background-color: #fff;
+  z-index: 1; }
 
 header {
   text-align: center;
   color: #fff;
-  background: #14C3A2;
+  background-color: #ed3f65;
   background-repeat: none;
   background-position: center center;
   background-attachment: scroll;
@@ -306,7 +307,7 @@ header img {
 header .intro-text .name {
   display: block;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   font-size: 2em;
   font-weight: 700; }
 
@@ -335,7 +336,7 @@ section h2.section-heading {
 section h3.section-subheading {
   margin-bottom: 75px;
   text-transform: none;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-style: italic;
   font-weight: 400; }
@@ -400,7 +401,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
   margin: 0;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-style: italic; }
 
@@ -423,7 +424,7 @@ section h3.section-subheading {
   left: 40px;
   width: 2px;
   margin-left: -1.5px;
-  background-color: #f1f1f1; }
+  background-color: #14C3A2; }
 
 .timeline > li {
   position: relative;
@@ -464,14 +465,14 @@ section h3.section-subheading {
   width: 80px;
   height: 80px;
   margin-left: 0;
-  border: 7px solid #f1f1f1;
+  border: 7px solid #14C3A2;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
   border-radius: 100%;
   text-align: center;
   color: #fff;
-  background-color: #FED136; }
+  background-color: #14C3A2; }
 
 .timeline > li .timeline-image h4 {
   margin-top: 12px;
@@ -580,7 +581,7 @@ section h3.section-subheading {
 
 .skill > img {
   margin: 0 auto;
-  border: 7px solid #fff; }
+  border: 7px solid #14C3A2; }
 
 .skill h4 {
   margin-top: 25px;
@@ -590,7 +591,7 @@ section h3.section-subheading {
 .skill p {
   margin-top: 0; }
 
-aside.verse h3 {
+aside.verse h2 {
   margin-top: 50px;
   text-align: center;
   transform: uppercase; }
@@ -613,7 +614,7 @@ aside.verse p {
   padding: 5px 0; }
 
 section#contact {
-  background-color: #14C3A2;
+  background-color: #ed3f65;
   background-position: center;
   background-repeat: no-repeat; }
 
@@ -634,30 +635,30 @@ section#contact .form-group textarea.form-control {
   height: 236px; }
 
 section#contact .form-control:focus {
-  border-color: #FED136;
+  border-color: #ffe72c;
   box-shadow: none; }
 
 section#contact::-webkit-input-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #bbb; }
 
 section#contact:-moz-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #bbb; }
 
 section#contact::-moz-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #bbb; }
 
 section#contact:-ms-input-placeholder {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #bbb; }
 
@@ -671,14 +672,14 @@ footer {
 footer span.copyright {
   text-transform: uppercase;
   text-transform: none;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   line-height: 40px; }
 
 footer ul.quicklinks {
   margin-bottom: 0;
   text-transform: uppercase;
   text-transform: none;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
   line-height: 40px; }
 
 ul.social-buttons {
@@ -704,7 +705,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #FED136; }
+  background-color: #ffe72c; }
 
 .btn:focus,
 .btn:active,
@@ -731,7 +732,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-style: italic; }
 
@@ -775,11 +776,11 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
   text-shadow: none;
-  background: #FED136; }
+  background: #ffe72c; }
 
 ::selection {
   text-shadow: none;
-  background: #FED136; }
+  background: #ffe72c; }
 
 img::selection {
   background: 0 0; }
@@ -788,7 +789,7 @@ img::-moz-selection {
   background: 0 0; }
 
 body {
-  webkit-tap-highlight-color: #FED136; }
+  webkit-tap-highlight-color: #ffe72c; }
 
 .tools_icon {
   border: 0px; }
