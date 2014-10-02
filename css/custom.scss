@@ -1,10 +1,18 @@
 /*VARIABLES*/
-$mint: #14C3A2;
-$pink: #ed3f65;
-$salmon: #EF4E45;
-$golden: #FBB016;
+// $mint2: #14C3A2;
+// $pink: #ed3f65;
+// $salmon: #EF4E45;
+// $golden: #FBB016;
 $yellow: #ffe72c;
-$orange: #f3793a;
+// $orange: #f3793a;
+
+$navy: #384252;
+$mint: #C0EFD2;
+$cream: #FFFFDD;
+$beige: #E9D6AF;
+$red: #E25858;
+$mint: #C0EFD2;
+
 $round: 'Varela Round', Helvetica, Arial, sans-serif;
 $lato: 'Lato', Helvetica, Arial, sans-serif;
 
@@ -49,7 +57,7 @@ a.active {
 }
 
 a {
-    color: $pink;
+    color: $red;
 }
 
 a:hover,
@@ -122,12 +130,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: $yellow;
-    background-color: $yellow;
+    border-color: $mint;
+    background-color: $mint;
 }
 
 .btn-primary .badge {
-    color: $yellow;
+    color: $mint;
     background-color: #fff;
 }
 
@@ -174,12 +182,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: $yellow;
-    background-color: $yellow;
+    border-color: $mint;
+    background-color: $mint;
 }
 
 .btn-xl .badge {
-    color: $yellow;
+    color: $mint;
     background-color: #fff;
 }
 
@@ -200,7 +208,7 @@ hr.star-light-inverse-v2:after {
     content: "\f005";
     display: inline-block;
     position: relative;
-    top: -.8em;
+    top: -0.8em;
     padding: 0 .25em;
     font-family: FontAwesome;
     font-size: 2em;
@@ -212,11 +220,11 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: $pink;
+    background-color: $navy;
 }
 
 hr.star-light-inverse, hr.star-light-inverse-v2 {
-    border-color: #FF0066;
+    border-color: $navy;
 }
 
 hr.star-light-inverse:after {
@@ -344,8 +352,8 @@ hr.star-light-inverse-v2:after {
 header {
     text-align: center;
     color: #fff;
-    background-color: $pink;
-    // background: #14C3A2; //mint
+    background-color: $navy;
+    // background: #14C3A2; //red
     // background-image: url(../img/stripes.png);
     background-repeat: none;
     background-position: center center;
@@ -753,7 +761,7 @@ aside.verse p {
 }
 
 section#contact {
-    background-color: $pink;
+    background-color: $navy;
     // background-image: url(../img/header-purple.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -781,7 +789,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: $yellow;
+    border-color: $mint;
     box-shadow: none;
 }
 
@@ -942,12 +950,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: $yellow;
+    background: $mint;
 }
 
 ::selection {
     text-shadow: none;
-    background: $yellow;
+    background: $mint;
 }
 
 img::selection {
@@ -959,14 +967,14 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: $yellow;
+    webkit-tap-highlight-color: $mint;
 }
 
 .tools_icon {
     border: 0px;
 }
 
-// .salmon, .golden, .yellow, .orange {
+// .salmon, .golden, .red, .orange {
 //   position: absolute;
 //   width: 100%;
 // }
@@ -989,8 +997,8 @@ body {
 //   height: 160px;
 // }
 
-// .yellow {
-//   background-color: $yellow;
+// .red {
+//   background-color: $mint;
 //   top:785px;
 //   height: 115px;
 // }
