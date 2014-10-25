@@ -101,9 +101,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   padding: 20px 40px;
   border-color: #ffe72c;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
   text-transform: uppercase;
   font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -194,7 +191,6 @@ hr.star-light-inverse-v2:after {
 .social_icons i:hover {
   color: #ffe72c;
   -webkit-transition: all .3s;
-  -moz-transition: all .3s;
   transition: all .3s; }
 
 .navbar-default {
@@ -254,19 +250,14 @@ hr.star-light-inverse-v2:after {
     border: 0;
     background-color: black;
     -webkit-transition: padding .3s;
-    -moz-transition: padding .3s;
     transition: padding .3s; }
 
   .navbar-default .navbar-brand {
     font-size: 2em;
     -webkit-transition: all .3s;
-    -moz-transition: all .3s;
     transition: all .3s; }
 
   .navbar-default .navbar-nav > .active > a {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
     border-radius: 3px; }
 
   .navbar-default.navbar-shrink {
@@ -276,9 +267,6 @@ hr.star-light-inverse-v2:after {
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em; } }
 .profilepic {
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
   border-radius: 100%;
   z-index: 1; }
 
@@ -289,8 +277,6 @@ header {
   background-repeat: none;
   background-position: center center;
   background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
 
@@ -361,7 +347,6 @@ section h3.section-subheading {
   opacity: 0;
   background: rgba(254, 209, 54, 0.9);
   -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
   transition: all ease .5s; }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -462,9 +447,6 @@ section h3.section-subheading {
   height: 80px;
   margin-left: 0;
   border: 7px solid #14C3A2;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
   border-radius: 100%;
   text-align: center;
   color: #fff;
@@ -590,7 +572,9 @@ section h3.section-subheading {
 aside.verse h2 {
   margin-top: 50px;
   text-align: center;
-  transform: uppercase; }
+  -webkit-transform: uppercase;
+      -ms-transform: uppercase;
+          transform: uppercase; }
 
 aside.verse i {
   padding: 10px 0;
@@ -685,9 +669,6 @@ ul.social-buttons li a {
   display: block;
   width: 40px;
   height: 40px;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
@@ -695,7 +676,6 @@ ul.social-buttons li a {
   color: #fff;
   background-color: #222;
   -webkit-transition: all .3s;
-  -moz-transition: all .3s;
   transition: all .3s; }
 
 ul.social-buttons li a:hover,
@@ -716,7 +696,6 @@ ul.social-buttons li a:active {
   /*@include border-radius(0);*/
   text-align: center;
   background-clip: border-box;
-  -webkit-box-shadow: none;
   box-shadow: none; }
 
 .portfolio-modal .modal-content h2 {
@@ -778,6 +757,9 @@ ul.social-buttons li a:active {
   text-shadow: none;
   background: #ffe72c; }
 
+img::-moz-selection {
+  background: 0 0; }
+
 img::selection {
   background: 0 0; }
 
@@ -789,5 +771,3 @@ body {
 
 .tools_icon {
   border: 0px; }
-
-/*# sourceMappingURL=custom.css.map */
