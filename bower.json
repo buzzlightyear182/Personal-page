@@ -1,0 +1,20 @@
+{
+  "name": "Jane Heather Dee",
+  "version": "0.0.1",
+  "homepage": "http://www.janeheatherdee.com",
+  "authors": [
+    "buzzlightyear182 <jane.buzzlightyear@gmail.com>"
+  ],
+  "description": "Personal website",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.3"
+  }
+}
