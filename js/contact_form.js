@@ -13,7 +13,7 @@ $(function() {
       dataType: "json",
       success: function() {
         $("#submit-success").fadeIn();
-        $("#contact-form").fadeOut();
+        $("#contactForm").fadeOut();
       },
       error: function() {
         $("#submit-errors").fadeIn();
