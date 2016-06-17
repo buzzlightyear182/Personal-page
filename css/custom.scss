@@ -1,6 +1,12 @@
 /*VARIABLES*/
 $mint: #14C3A2;
-$yellow: #FED136;
+$pink: #ed3f65;
+// $salmon: #EF4E45;
+$golden: #FBB016;
+$yellow: #ffe72c;
+// $orange: #f3793a;
+$sans-serif: 'Lato', Helvetica, Arial, sans-serif;
+$cursive: 'Lobster', cursive;
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -11,7 +17,7 @@ $yellow: #FED136;
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
 }
 
 .text-muted {
@@ -19,13 +25,12 @@ body {
 }
 
 .text-primary {
-    color: $yellow;
+    color: $mint;
 }
 
 .smaller {
     font-size: 0.9em;
 }
-
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -44,7 +49,7 @@ a.active {
 }
 
 a {
-    color: $yellow;
+    color: $pink;
 }
 
 a:hover,
@@ -61,7 +66,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-weight: 700;
 }
 
@@ -80,7 +85,7 @@ h6 {
 .btn-primary {
     border-color: $yellow;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: $yellow;
@@ -131,7 +136,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: $yellow;
     @include border-radius(3px);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -207,11 +212,11 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #14C3A2;
+    background-color: $pink;
 }
 
 hr.star-light-inverse, hr.star-light-inverse-v2 {
-    border-color: #14C3A2;
+    border-color: #FF0066;
 }
 
 hr.star-light-inverse:after {
@@ -242,7 +247,7 @@ hr.star-light-inverse-v2:after {
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: $sans-serif;
     text-transform: uppercase;
     color: $yellow;
 }
@@ -274,7 +279,7 @@ hr.star-light-inverse-v2:after {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -300,7 +305,7 @@ hr.star-light-inverse-v2:after {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 20px 0;
         border: 0;
         background-color: black;
         -webkit-transition: padding .3s;
@@ -330,16 +335,16 @@ hr.star-light-inverse-v2:after {
 }
 
 .profilepic {
-    border: 3px solid #fff;
     @include border-radius(100%);
-    background-color: #fff;
+    z-index: 1;
 }
 
 header {
     text-align: center;
     color: #fff;
-    background: #14C3A2;
-    // background-image: url(../img/header-purple.jpg);
+    background-color: $pink;
+    // background: #14C3A2; //mint
+    // background-image: url(../img/stripes.png);
     background-repeat: none;
     background-position: center center;
     background-attachment: scroll;
@@ -356,14 +361,12 @@ header .container {
 
 header img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto;
 }
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-family: $cursive;
     font-weight: 700;
 }
 
@@ -374,12 +377,12 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 160px;
         padding-bottom: 100px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 5.75em;
     }
 
     header .intro-text .skills {
@@ -398,9 +401,9 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 65px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -479,7 +482,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -508,7 +511,8 @@ section h3.section-subheading {
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    // background-color: #f1f1f1;
+    background-color: $mint;
 }
 
 .timeline>li {
@@ -556,11 +560,13 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    // border: 7px solid #f1f1f1;
+    border: 7px solid $mint;
+
     @include border-radius(100%);
     text-align: center;
     color: #fff;
-    background-color: $yellow;
+    background-color: $mint;
 }
 
 .timeline>li .timeline-image h4 {
@@ -701,7 +707,7 @@ section h3.section-subheading {
 
 .skill > img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid $mint;
 }
 
 .skill h4 {
@@ -714,7 +720,7 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.verse h3 {
+aside.verse h2 {
     margin-top: 50px;
     text-align: center;
     transform: uppercase;
@@ -743,7 +749,7 @@ aside.verse p {
 }
 
 section#contact {
-    background-color: #14C3A2;
+    background-color: $pink;
     // background-image: url(../img/header-purple.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -777,28 +783,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -815,7 +821,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     line-height: 40px;
 }
 
@@ -823,7 +829,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     line-height: 40px;
 }
 
@@ -881,7 +887,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: $sans-serif;
     font-size: 16px;
     font-style: italic;
 }
