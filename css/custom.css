@@ -198,8 +198,7 @@ hr.star-light-inverse-v2:after {
   background-color: #222; }
 
 .navbar-default .navbar-brand {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "Lobster", cursive;
   color: #ffe72c; }
 
 .navbar-default .navbar-brand:hover,
